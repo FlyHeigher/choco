@@ -1,0 +1,597 @@
+.left {
+    float: left;
+    display: inline;
+}
+
+.right {
+    float: right;
+    display: inline;
+}
+
+.clear:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.clear {
+    zoom: 1;
+}
+
+html {
+    color: #000;
+    background: #FFF;
+    font-family: Microsoft YaHei, sans-serif, Arial, '宋体';
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, strong {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+
+var, em, i {
+    font-style: normal;
+}
+
+address, caption, cite, code, dfn, em, th, var, optgroup {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+del, ins {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: baseline;
+}
+
+sub {
+    vertical-align: baseline;
+}
+
+legend {
+    color: #000;
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+input, button, textarea, select {
+    *font-size: 100%;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], button {
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+
+
+.large{
+    width: 16rem;
+    position: relative;
+    
+}
+
+
+/*侧边栏开始*/
+.sidebar{
+    width: 14rem;
+    position: absolute;
+    left: -14rem;
+    top:0rem;
+    height: 7rem;
+    background: #ccc;
+}
+/*侧边栏结束*/
+
+
+/*内容开始*/
+.content{
+    width: 16rem;
+    overflow: hidden;
+
+
+}
+
+/*nav吸顶条开始*/
+.nav{
+    width: 16rem;
+    height: 2.6rem;
+    background: #000;
+    /*overflow: hidden;*/
+    position: fixed;
+    z-index:999;
+
+
+}
+
+
+.nav_left{
+    width: 2rem;
+    height:2.6rem;
+    margin-left: 0.8rem;
+}
+
+.nav_left img{
+    width: 0.8rem;
+    margin-top: 0.8rem;
+}
+.nav_cont{
+    width: 3.15rem;
+    height: 2.6rem;
+}
+
+.nav_cont img{
+    widows: 3.15rem;
+    height: 0.775rem;
+    margin-top: 0.8rem;
+}
+
+.nav_right{
+    height: 2.6rem;
+    margin-right: 0.8rem;
+}
+
+.nav_right img{
+    width: 5.5rem;
+    height: 1.2rem;
+    margin-top: 0.6rem
+}
+/*nav吸顶条结束*/
+
+
+/*滑动轮播开始*/
+.Carousel{
+   width: 16rem;
+   height: 12rem;
+   background: #ccc; 
+   margin-top: 2.6rem;  
+
+}
+#div2{width:16rem;height:100%;margin: auto;}
+#div2>div{width: 500%;}
+#div2 div div{width: 20%;}
+#div2 div div img{width: 100%; height: 100%;}
+
+/*滑动轮播结束*/
+
+/*内容开始*/
+.con_large{
+    width: 16rem;
+
+}
+
+.con_Small{
+    width: 14.4rem;
+    background: #fff;
+    margin:0 auto;
+}
+
+
+
+/*婚礼案例THE MOMENT开始*/
+.con_the{
+    widows: 14.4rem;
+    height: 12rem;
+    margin-top: 0.7rem;
+}
+
+.con_the div{
+    width: 14.4rem;
+    height: 10rem;
+}
+
+.con_the div img{
+    width: 14.4rem;
+    height: 10rem;
+}
+
+
+.con_the span{
+    width: 14.4rem;
+    height: 2rem;
+    display: block;
+    background: #EEEEEE;
+}
+
+.con_the span a{
+    display: block;
+    line-height: 2rem;
+    width: 14.4rem;
+    height: 2rem;
+    font-size:0.6rem;
+    text-align: center;
+    color: #363739;
+}
+/*婚礼案例THE MOMENT结束*/
+
+
+/*婚礼案例奇幻森林开始*/
+.con_Fantasy{
+    widows: 14.4rem;
+    height: 12rem;
+    margin-top: 0.7rem;
+}
+
+.con_Fantasy div{
+    width: 14.4rem;
+    height: 10rem;
+}
+
+.con_Fantasy div img{
+    width: 14.4rem;
+    height: 10rem;
+}
+
+
+.con_Fantasy span{
+    width: 14.4rem;
+    height: 2rem;
+    display: block;
+    background: #EEEEEE;
+}
+
+.con_Fantasy span a{
+    display: block;
+    line-height: 2rem;
+    width: 14.4rem;
+    height: 2rem;
+    font-size:0.6rem;
+    text-align: center;
+    color: #363739;
+}
+/*婚礼案例奇幻森林结束*/
+
+
+/*婚礼案例初恋开始*/
+.con_firstlove{
+    widows: 14.4rem;
+    height: 10rem;
+    margin-top: 0.7rem;
+}
+
+.con_firstlove div{
+    width: 14.4rem;
+    height: 8rem;
+}
+
+.con_firstlove div img{
+    width: 14.4rem;
+    height: 8rem;
+}
+
+
+.con_firstlove span{
+    width: 14.4rem;
+    height: 2rem;
+    display: block;
+    background: #EEEEEE;
+}
+
+.con_firstlove span a{
+    display: block;
+    line-height: 2rem;
+    width: 14.4rem;
+    height: 2rem;
+    font-size:0.6rem;
+    text-align: center;
+    color: #363739;
+}
+/*婚礼案例初恋结束*/
+
+
+/*中式之子于归开始*/
+.con_son{
+    widows: 14.4rem;
+    height: 12rem;
+    margin-top: 0.7rem;
+}
+
+.con_son div{
+    width: 14.4rem;
+    height: 10rem;
+}
+
+.con_son div img{
+    width: 14.4rem;
+    height: 10rem;
+}
+
+
+.con_son span{
+    width: 14.4rem;
+    height: 2rem;
+    display: block;
+    background: #EEEEEE;
+}
+
+.con_son span a{
+    display: block;
+    line-height: 2rem;
+    width: 14.4rem;
+    height: 2rem;
+    font-size:0.6rem;
+    text-align: center;
+    color: #363739;
+}
+/*中式之子于归结束*/
+
+
+
+
+/*面朝大海，春暖花开 开始*/
+.con_warm{
+    widows: 14.4rem;
+    height: 10rem;
+    margin-top: 0.7rem;
+}
+
+.con_warm div{
+    width: 14.4rem;
+    height: 8rem;
+}
+
+.con_warm div img{
+    width: 14.4rem;
+    height: 8rem;
+}
+
+
+.con_warm span{
+    width: 14.4rem;
+    height: 2rem;
+    display: block;
+    background: #EEEEEE;
+}
+
+.con_warm span a{
+    display: block;
+    line-height: 2rem;
+    width: 14.4rem;
+    height: 2rem;
+    font-size:0.6rem;
+    text-align: center;
+    color: #363739;
+}
+/*面朝大海，春暖花开 结束*/
+
+
+
+
+/*婚礼案例，最重要的决定 开始*/
+.con_most{
+    widows: 14.4rem;
+    height: 12rem;
+    margin-top: 0.7rem;
+}
+
+.con_most div{
+    width: 14.4rem;
+    height: 10rem;
+}
+
+.con_most div img{
+    width: 14.4rem;
+    height: 10rem;
+}
+
+
+.con_most span{
+    width: 14.4rem;
+    height: 2rem;
+    display: block;
+    background: #EEEEEE;
+}
+
+.con_most span a{
+    display: block;
+    line-height: 2rem;
+    width: 14.4rem;
+    height: 2rem;
+    font-size:0.6rem;
+    text-align: center;
+    color: #363739;
+}
+/*婚礼案例，最重要的决定 结束*/
+
+
+/*更多婚礼案例开始*/
+
+.con_case{
+    width: 13rem;
+    height: 2rem;
+    border:0.1rem solid #DAD8D9;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.con_case a{
+    widows: 13rem;
+    height: 2rem;
+    display: block;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 2rem;
+    color: ##363739;
+}
+
+/*更多婚礼案例结束*/
+
+
+
+
+/*更多婚礼锦囊结束*/
+.con_silkbag{
+    width: 13rem;
+    height: 2rem;
+    border:0.1rem solid #DAD8D9;
+    margin: 0 auto;
+    margin-top: 1rem;
+ 
+}
+
+.con_silkbag a{
+    widows: 13rem;
+    height: 2rem;
+    display: block;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 2rem;
+    color: ##363739;
+}
+
+/*更多婚礼锦囊结束*/
+
+
+
+/*内容结束*/
+
+/*内容结束*/
+
+
+/*免费婚礼方案开始*/
+.Admission{
+    width: 16rem;
+    height: 12rem;
+    background-image:url(../images/ba.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 0.8rem;
+    position: relative;
+}
+
+.Admission div{
+    border: 0.1rem solid #fff;
+    width: 12rem;
+    height: 2.3rem;
+    position: absolute;
+    margin-left: 1.9rem;
+    margin-top: 5rem;
+}
+
+.Admission div a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 2.3rem;
+
+}
+/*免费婚礼方案结束*/
+
+/*footet*/
+.footer{
+    width: 16rem;
+
+}
+
+.footrt-contact{
+    width: 16rem;
+    height: 1.8rem;
+    border-bottom: 0.02rem solid #000;
+
+}
+
+.footrt-contact a{
+    display: block;
+     width: 16rem;
+    height: 1.8rem;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 0.6rem;
+}
+
+.footer-an{
+    width: 16rem;
+    height: 2.5rem;
+    border-bottom: 0.02rem solid #000;
+    font-size: 0.5rem;
+}
+
+.footer-an div:nth-child(1){
+    width: 8rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+} 
+
+.footer-an div:nth-child(1) a{
+    display: block;
+    width: 8rem;
+    height: 2.5rem;
+    border-right: 0.02rem solid #000;
+}
+
+.footer-an div:nth-child(2){
+    width: 7.98rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.footer-an div:nth-child(2) a{
+    display: block;
+    width: 7.98rem;
+    height: 2.5rem; 
+}
+
+.footer-copyright{
+    width: 16rem;
+    height: 4rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 0.6rem
+}
