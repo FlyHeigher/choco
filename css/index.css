@@ -1,186 +1,509 @@
-
 /*nav start*/
+
 .hometopbox {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    z-index: 1000;
-    height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 1000;
+	height: 70px;
 }
 
 .hometopbox .home_nav {
-    width: 98%;
-    margin: 0 auto 20px;
+	width: 98%;
+	margin: 0 auto 20px;
 }
 
 .hometopbox .home_nav .hlogo {
-    width: 160px;
-    float: left;
-    margin-top: 20px;
+	width: 160px;
+	float: left;
+	margin-top: 20px;
 }
 
 .hometopbox .home_nav .hlogo img {
-    width: 100%
+	width: 100%
 }
 
 .hometopbox .home_nav ul {
-    width: calc(100% - 170px);
-    float: right;
-    border-bottom: solid 1px rgb(128, 128, 128);
-    height: 42px;
-    margin-top: 15px;
-    position: relative;
+	width: calc(100% - 170px);
+	float: right;
+	border-bottom: solid 1px rgb(128, 128, 128);
+	height: 42px;
+	margin-top: 15px;
+	position: relative;
 }
 
 .hometopbox .home_nav ul li {
-    display: inline-block;
-    font-size: 14px;
-    height: 40px;
-    margin-right: 40px;
-    line-height: 40px;
-    position: relative;
-    vertical-align: top;
+	display: inline-block;
+	font-size: 14px;
+	height: 40px;
+	margin-right: 40px;
+	line-height: 40px;
+	position: relative;
+	vertical-align: top;
 }
 
 .hometopbox .home_nav ul li:hover {
-    border-bottom: 5px #000 solid;
+	border-bottom: 5px #000 solid;
 }
 
 .hometopbox .home_nav ul li a {
-    color: #333;
+	color: #333;
 }
 
 .hometopbox .home_nav ul span {
-    position: absolute;
-    right: 0%;
-    bottom: 5px;
-    font-size: 14px;
+	position: absolute;
+	right: 0%;
+	bottom: 5px;
+	font-size: 14px;
 }
 
 .hometopbox .home_nav ul span i {
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    font-size: 15px;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-size: 15px;
 }
 
 .hometopbox .home_nav ul span a:hover {
-    color: #666;
-    font-weight: bold
+	color: #666;
+	font-weight: bold
 }
 
 .hometopbox .home_nav ul span img {
-    vertical-align: middle;
-    padding-right: 10px;
-    width: 30px;
+	vertical-align: middle;
+	padding-right: 10px;
+	width: 30px;
 }
+
+
 /*nav end*/
 
+
 /*banner start*/
-.banner{
-    width: 100%;
-    overflow: hidden;
-    margin-top: 70px;
-    position: relative;
-}
-.banner-control{
-    width: 250px;
-    height: 20px;
-    margin: 0 auto;
-}
-.banner-control li{
-    float: left;
-    margin:10px 20px;
-    width: 10px;
-    height: 10px;
-    background: #000;
-    opacity: 0.6;
-    cursor: pointer;
-    border-radius: 10px;
-}
-.banner-control li.active{
-    width: 12px;
-    height: 12px;
-    margin: 8px 18px;
-    opacity: 1;
-}
-.banner-inner{
-    width: 500%;
-    overflow: hidden;
-    position: relative;
+
+.banner {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 70px;
+	position: relative;
 }
 
-.banner-inner .item{
-    float: left;
-    width: 20%;
-    overflow: hidden;
+.banner-control {
+	width: 250px;
+	height: 20px;
+	margin: 0 auto;
 }
-.banner-inner img{
-    width: 100%;
-    height: auto;
+
+.banner-control li {
+	float: left;
+	margin: 10px 20px;
+	width: 10px;
+	height: 10px;
+	background: #000;
+	opacity: 0.6;
+	cursor: pointer;
+	border-radius: 10px;
 }
+
+.banner-control li.active {
+	width: 12px;
+	height: 12px;
+	margin: 8px 18px;
+	opacity: 1;
+}
+
+.banner-inner {
+	width: 500%;
+	overflow: hidden;
+	position: relative;
+}
+
+.banner-inner .item {
+	float: left;
+	width: 20%;
+	overflow: hidden;
+}
+
+.banner-inner img {
+	width: 100%;
+	height: auto;
+}
+
+
 /*banner end*/
+
+
 /*thr*/
-.thr{
-    width: 92%;
-    margin: 0 auto;
+
+.thr {
+	width: 92%;
+	margin: 0 auto;
 }
 
 
 /*homethr start*/
 
-
 .home_thr {
-    width: 70%;
-    margin: 0 auto;
-    min-width: 1024px;
+	width: 70%;
+	margin: 0 auto;
+	min-width: 1024px;
 }
+
 .home_thr ul {
-    font-size: 0;
+	font-size: 0;
 }
+
 .home_thr ul li {
-    display: inline-block;
-    width: 33%;
-    margin-right: 0.3%;
+	display: inline-block;
+	width: 33%;
+	margin-right: 0.3%;
 }
 
 .home_thr ul li span {
-    font-family: Arial, Helvetica, sans-serif
+	font-family: Arial, Helvetica, sans-serif
 }
 
 .home_thr ul li h4 {
-    text-align: center;
-    font-size: 26px;
-    font-weight: normal;
-    padding-bottom: 23px;
-    font-family: '新宋体'
+	text-align: center;
+	font-size: 26px;
+	font-weight: normal;
+	padding-bottom: 23px;
+	font-family: '新宋体'
 }
 
 .home_thr ul li dd {
-    text-align: center;
-    font-size: 16px;
-    padding-top: 20px;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 20px;
 }
 
 .home_thr ul li div {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .home_thr ul li div img {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
-    width: 100%;
-    transition: all 1s;
-    overflow: hidden;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	width: 100%;
+	transition: all 1s;
+	overflow: hidden;
 }
 
 .home_thr ul li div img:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 
 /*homethr end*/
+
+.line {
+	border-top: 1px solid #eeeeee;
+	width: 83%;
+	margin: 0 auto;
+	height: 1px;
+	margin-top: 35px;
+}
+
+
+/*case start*/
+
+.love_title h1 a {
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.love_title {
+	font-size: 20px;
+	height: auto;
+	color: #414146;
+	width: 83%;
+	margin: 30px auto 0 auto;
+}
+
+.love_title span {
+	border-bottom: 2px solid #414146;
+}
+
+.love_title span i {
+	font-family: Arial;
+	font-size: 22px;
+	padding-left: 10px;
+}
+
+.love_cen {
+	width: 83%;
+	margin: 20px auto;
+	height: auto
+}
+
+.love_left {
+	width: 60%;
+	height: auto;
+	float: left
+}
+
+.love_right {
+	width: 35%;
+	height: auto;
+	float: right
+}
+
+.hunli_left {
+	width: 13%;
+	float: left;
+	border-right: 2px #bfbfbf solid;
+	padding-right: 10px
+}
+
+.hunli_top {
+	margin-top: 130px;
+}
+
+.hunli_top0 {
+	position: fixed;
+	top: 67px;
+	left: 13%
+}
+
+.hunli_right {
+	width: 85%;
+	float: right;
+}
+
+.hunli_type_list {
+	width: 100%;
+	text-align: right;
+	font-size: 18px;
+}
+
+.hunli_type_list span {
+	border-bottom: 2px solid #a3a3a3;
+	cursor: pointer;
+	text-align: right;
+}
+
+.hunli_type_list dt {
+	padding-left: 15%;
+	padding-bottom: 15px;
+	text-align: right;
+	font-size: 15px;
+}
+
+.hunli_type_list dd {
+	padding-left: 15%;
+	height: 50px;
+	text-align: right;
+	color: #b4b4b4;
+	position: relative;
+	font-size: 14px;
+}
+
+.hunli_type_list dd img {
+	position: absolute;
+	right: 0;
+	margin-right: -28px;
+	top: 8px;
+	display: none
+}
+
+.hunli_type_list dd a {
+	color: #919191
+}
+
+.mt {
+	margin-top: 120px;
+}
+
+.hunli_r_l {
+	width: 55%;
+	float: left;
+}
+
+.hunli_r_r {
+	width: 40%;
+	float: right;
+}
+
+.jinnang_r_l {
+	float: left;
+	width: 32%;
+	display: inline
+}
+
+.jinnang_r_c {
+	float: left;
+	width: 32%;
+	margin-left: 2%;
+	display: inline
+}
+
+.jinnang_r_r {
+	float: left;
+	width: 32%;
+	margin-left: 2%;
+	display: inline
+}
+
+.hunli_pic {
+	position: relative;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.hunli_pic img {
+	width: 100%
+}
+
+.y_pic_w {
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.y_pic_n {
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 50px;
+	width: 44px;
+	height: 44px;
+	margin: 3px auto;
+}
+
+.hunli_pic_tit {
+	font-size: 16px;
+	color: #000000;
+	padding: 3px 0;
+}
+
+.hunli_pic_time {
+	font-size: 14px;
+	color: #a5a5a7;
+	padding: 3px 0;
+}
+
+.jinnang .hunli_pic_time {
+	height: 46px;
+}
+
+.hunli_pic_time a {
+	color: #919191;
+}
+
+.hunli_pic_time a:hover {
+	color: #666666;
+}
+
+.hunli_r_r {
+    width: 40%;
+    float: right;
+}
+
+.hunli_pic {
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.hunli_pic img {
+    width: 100%;
+}
+.y_pic_w {
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.y_pic_n {
+     background: url(../images/1-1F60Q51U3493.JPG) center;
+     background-size: 100% auto;
+     -moz-border-radius: 40px;
+     -webkit-border-radius: 40px;
+     border-radius: 50px;
+     width: 44px;
+     height: 44px;
+     margin: 3px auto;
+ }
+.y_pic_n2 {
+    background: url(../images/1-1F601161439341.jpg) center;
+    background-size: 100% auto;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    margin: 3px auto;
+}
+.y_pic_n3 {
+    background: url(../images/1-1F5111I436105.jpg) center;
+    background-size: 100% auto;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    margin: 3px auto;
+}
+.y_pic_n4 {
+    background: url(../images/1-1F5061JP9605.jpg) center;
+    background-size: 100% auto;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    margin: 3px auto;
+}
+
+.y_pic_n5 {
+    background: url(../images/1-1F42G5361H11.jpg) center;
+    background-size: 100% auto;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    margin: 3px auto;
+}
+.y_pic_n6 {
+    background: url(../images/1-1F41GP053400.jpg) center;
+    background-size: 100% auto;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    margin: 3px auto;
+}
+.hunli_pic_tit {
+    font-size: 16px;
+    color: #000000;
+    padding: 3px 0;
+}
+.linee {
+    width: 100%;
+    height: 25px;
+}
+
+/*case end*/
+
+.foot{width:70%; margin:0 auto; text-align:center; padding:50px 0; font-size:13px;letter-spacing:0.03em; border-top:1px solid #eeeeee;}
+.foot .copy{font-family:Arial;}
+.foot .c{font-family:Arial; font-size:18px; font-weight:bold}
+.foot a{color:#000}
