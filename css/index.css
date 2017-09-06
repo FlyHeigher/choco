@@ -405,105 +405,133 @@
 }
 
 .hunli_r_r {
-    width: 40%;
-    float: right;
+	width: 40%;
+	float: right;
 }
 
 .hunli_pic {
-    position: relative;
-    width: 100%;
-    padding-bottom: 20px;
+	position: relative;
+	width: 100%;
+	padding-bottom: 20px;
 }
+
 .hunli_pic img {
-    width: 100%;
+	width: 100%;
 }
+
 .y_pic_w {
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    bottom: 0;
-    left: 30px;
-    text-align: center;
-    background-color: #ffffff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	text-align: center;
+	background-color: #ffffff;
 }
 
 .y_pic_n {
-     background: url(../images/1-1F60Q51U3493.JPG) center;
-     background-size: 100% auto;
-     -moz-border-radius: 40px;
-     -webkit-border-radius: 40px;
-     border-radius: 50px;
-     width: 44px;
-     height: 44px;
-     margin: 3px auto;
- }
+	background: url(../images/1-1F60Q51U3493.JPG) center;
+	background-size: 100% auto;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 50px;
+	width: 44px;
+	height: 44px;
+	margin: 3px auto;
+}
+
 .y_pic_n2 {
-    background: url(../images/1-1F601161439341.jpg) center;
-    background-size: 100% auto;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 50px;
-    width: 44px;
-    height: 44px;
-    margin: 3px auto;
+	background: url(../images/1-1F601161439341.jpg) center;
+	background-size: 100% auto;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 50px;
+	width: 44px;
+	height: 44px;
+	margin: 3px auto;
 }
+
 .y_pic_n3 {
-    background: url(../images/1-1F5111I436105.jpg) center;
-    background-size: 100% auto;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 50px;
-    width: 44px;
-    height: 44px;
-    margin: 3px auto;
+	background: url(../images/1-1F5111I436105.jpg) center;
+	background-size: 100% auto;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 50px;
+	width: 44px;
+	height: 44px;
+	margin: 3px auto;
 }
+
 .y_pic_n4 {
-    background: url(../images/1-1F5061JP9605.jpg) center;
-    background-size: 100% auto;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 50px;
-    width: 44px;
-    height: 44px;
-    margin: 3px auto;
+	background: url(../images/1-1F5061JP9605.jpg) center;
+	background-size: 100% auto;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 50px;
+	width: 44px;
+	height: 44px;
+	margin: 3px auto;
 }
 
 .y_pic_n5 {
-    background: url(../images/1-1F42G5361H11.jpg) center;
-    background-size: 100% auto;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 50px;
-    width: 44px;
-    height: 44px;
-    margin: 3px auto;
+	background: url(../images/1-1F42G5361H11.jpg) center;
+	background-size: 100% auto;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 50px;
+	width: 44px;
+	height: 44px;
+	margin: 3px auto;
 }
+
 .y_pic_n6 {
-    background: url(../images/1-1F41GP053400.jpg) center;
-    background-size: 100% auto;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 50px;
-    width: 44px;
-    height: 44px;
-    margin: 3px auto;
+	background: url(../images/1-1F41GP053400.jpg) center;
+	background-size: 100% auto;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 50px;
+	width: 44px;
+	height: 44px;
+	margin: 3px auto;
 }
+
 .hunli_pic_tit {
-    font-size: 16px;
-    color: #000000;
-    padding: 3px 0;
+	font-size: 16px;
+	color: #000000;
+	padding: 3px 0;
 }
+
 .linee {
-    width: 100%;
-    height: 25px;
+	width: 100%;
+	height: 25px;
 }
+
 
 /*case end*/
 
-.foot{width:70%; margin:0 auto; text-align:center; padding:50px 0; font-size:13px;letter-spacing:0.03em; border-top:1px solid #eeeeee;}
-.foot .copy{font-family:Arial;}
-.foot .c{font-family:Arial; font-size:18px; font-weight:bold}
-.foot a{color:#000}
+.foot {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px 0;
+	font-size: 13px;
+	letter-spacing: 0.03em;
+	border-top: 1px solid #eeeeee;
+}
+
+.foot .copy {
+	font-family: Arial;
+}
+
+.foot .c {
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold
+}
+
+.foot a {
+	color: #000
+}

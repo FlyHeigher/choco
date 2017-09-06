@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>启宼婚礼-中式</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/hunli.css" />
+	</head>
+	<body>
+		<div class="top_nav" style="display: none;">
+			<ul>
+				<li><dt>按照价格</dt>
+					<dd>
+						<a title="Classical" href="###">Classical</a>
+					</dd>
+					<dd>
+						<a title="Superior" href="###">Superior</a>
+					</dd>
+					<dd>
+						<a title="fine Art" href="###">fine Art</a>
+					</dd>
+				</li>
+				<li><dt>按照风格</dt>
+					<dd>
+						<a title="森系" href="###/a>
+					</dd>
+					<dd>
+						<a title="欧式奢华" href="###">欧式奢华</a>
+					</dd>
+					<dd>
+						<a title="主题式" href="###/a>
+					</dd>
+					<dd>
+						<a title="中式" href="###">中式</a>
+					</dd>
+					<dd>
+						<a title="后现代" href="###">后现代</a>
+					</dd>
+				</li>
+				<li><dt>宴会类型</dt>
+					<dd>
+						<a title="婚礼" href="###">婚礼</a>
+					</dd>
+					<dd>
+						<a title="宝宝宴" href="###">宝宝宴</a>
+					</dd>
+					<dd>
+						<a title="派对" href="###">派对</a>
+					</dd>
+					<dd>
+						<a title="企业活动" href="###">企业活动</a>
+					</dd>
+				</li>
+				<li><dt>按照场地</dt>
+					<dd>
+						<a title="室内" href="###">室内</a>
+					</dd>
+					<dd>
+						<a title="室外" href="###">室外</a>
+					</dd>
+				</li>
+				<div class="clr"></div>
+			</ul>
+		</div>
+
+		<div id="compareDiv1" style="width: 100%; text-align: center; background-color: rgb(53, 29, 4); height: 68px; padding-top: 12px; position: relative; display: block;">
+			<div class="chang_style" id="chang_style">更改类型 婚礼案例</div>
+			<a href="index.html" title="三亚婚庆公司"><img title="三亚婚庆公司" alt="三亚婚庆公司" src="./images/logo_wedd.png" height="55"></a>
+		</div>
+
+		<style>
+			.home_nav ul li:hover .nav_list_t {
+				display: block
+			}
+			
+			.nav_list_t {
+				position: absolute;
+				width: 100%;
+				left: 0;
+				top: 45px;
+				background-color: #fff;
+				text-align: center;
+				display: none
+			}
+		</style>
+
+		<div class="hometopbox" style="display: none;" id="compareDiv2">
+			<div class="home_nav">
+				<div class="hlogo">
+					<a href="index.html">
+						<img src="images/ljf-logo.png">
+					</a>
+				</div>
+				<ul>
+					<li>
+						<a href="hot.html">启蔻热门</a>
+					</li>
+					<li>
+						<a href="case.html">婚礼案例</a>
+					</li>
+					<li>
+						<a href="###">三亚启蔻</a>
+					</li>
+					<li>
+						<a href="hotel.html">精选酒店</a>
+					</li>
+					<li>
+						<a href="houxiandai.html">婚礼锦囊</a>
+					</li>
+					<li>
+						<a href="introduce.html">企业介绍</a>
+					</li>
+					<li>
+						<a href="aboutMe.html">联系我们</a>
+					</li>
+					<span><img src="./images/teln.png" alt="婚庆公司"><i>028-85307296</i>(成都) or <i>0898-88689418</i>(三亚)</span>
+				</ul>
+				<div class="clr"></div>
+			</div>
+		</div>
+			<!--jxHeader end-->
+			
+		<script src="./js/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			//浮动
+			$(function() {
+
+				$(window).scroll(function() {
+					if($(window).scrollTop() > 5) {
+						$('#compareDiv1').hide();
+						$('#compareDiv2').show();
+						$('.top_nav').hide(800);
+						$('#chang_style').removeClass('chang_style_01');
+						$('#chang_style').addClass('chang_style');
+					} else {
+						$('#compareDiv2').hide();
+						$('#compareDiv1').show();
+					}
+				});
+
+				$('#chang_style').click(function() {
+
+					myclass = $(this).attr('class');
+					if(myclass == "chang_style") {
+						$(this).removeClass('chang_style');
+						$(this).addClass('chang_style_01');
+						$('.top_nav').show(800);
+
+					} else {
+						$(this).removeClass('chang_style_01');
+						$(this).addClass('chang_style');
+						$('.top_nav').hide(800);
+					}
+				});
+
+			})
+		</script>	
+			<!--jxCon start-->
+			<div class="jxCon">
+				<div class="jxConInner">
+					<div class="jxConLeft">
+						<div class="jxCon1">
+							<div class="jxConOne">
+								<img src="images/img-zhongshi/jxjxProduct-1.jpg" alt="" class="jxImg"/>
+								<div class="jxWedding">
+									<p>中式婚礼作品 | 之子于归</p>
+								</div>
+								<p class="jxFont">
+									初识动心，继而相恋，再而漂洋过海来到她的家乡，以一场最为传统隆重的仪式，在家人亲朋的见证下，许下与子相守一生的承诺与誓言。在青城山六善酒店，启蔻为这对跨国情侣定制打造的一场极富传统韵味的纯中式婚礼。
+								</p>
+							</div>
+							<div class="jxConTwo">
+								<img src="images/img-zhongshi/jxjxProduct-4.jpg" alt="" class="jxImg"/>
+								<div class="jxWedding">
+									<p>婚礼作品 | 月满一座城</p>
+								</div>
+								<p class="jxFont">
+									婚礼地点：苏州·同里<br>拍摄团队：蔻摄影
+								</p>
+							</div>
+						</div>
+						<div class="jxCon2">
+							<div class="jxConThere">
+								<img src="images/img-zhongshi/jxjxProduct-2.jpg" alt="" class="jxImg"/>
+								<div class="jxWedding">
+									<p>新中式婚礼作品 | 韵</p>
+								</div>
+								<p class="jxFont">
+									世纪城洲际酒店，设计运用不同中国风元素的碰撞，打造出这场新颖别致，却不失传统古典韵味的新中式风婚礼.
+								</p>
+							</div>
+							<div class="jxConFour">
+								<img src="images/img-zhongshi/jxjxProduct-5.jpg" alt="" class="jxImg"/>
+								<div class="jxWedding">
+									<p>中式婚礼作品 | 桃之灼灼</p>
+								</div>
+								<p class="jxFont">
+									婚礼场地：浣花黉台
+								</p>
+							</div>
+						</div>
+						<div class="jxCon3">
+							<div class="jxConFix">
+								<img src="images/img-zhongshi/jxjxProduct-3.jpg" alt="" class="jxConFixImg"/>
+								<div class="jxWedding">
+									<p>沈腾婚礼 | 自贡回门宴</p>
+								</div>
+								<p class="jxConFixFont">
+									在琦琦的家乡自贡，腾哥和琦琦以一场传统的中国红回门宴，完成了对所有见证过琦琦成长的娘家亲友的答谢。两颗心，千里路，万种感恩，真爱水到渠成。
+								</p>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="jxConRight">
+						<div class="jxConRightImg"></div>
+						<div class="jxConRightList">
+							<h3>更多婚礼类型</h3>
+							<div class="jxConRightListOne">
+								<ul class="listOne">
+									<h4>按照价格</h4>
+									<li>Classical</li>
+									<li>Superior</li>
+									<li>fine Art</li>
+								</ul>
+								<ul class="listTwo">
+									<h4>宴会类型</h4>
+									<li>婚礼</li>
+									<li>宝宝宴</li>
+									<li>派对</li>
+									<li>企业活动</li>
+								</ul>
+							</div>
+							<div class="jxConRightListTwo">
+								<ul class="listThere">
+									<h4>按照风格</h4>
+									<li>森系</li>
+									<li>欧式奢华</li>
+									<li>主题式</li>
+									<li>中式</li>
+									<li>后现代</li>
+								</ul>
+								<ul class="listFour">
+									<h4>按照场地</h4>
+									<li>室内</li>
+									<li>室外</li>
+								</ul>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div><!--jxConInner start-->
+			</div><!--jxCon end-->
+			
+			<!--copy start-->
+			<div class="jxCopy">
+				<div class="jxCopyInner">
+					<div class="jxCopyCon">
+						<div class="jxCopyCon-1">
+							<img src="images/img-zhongshi/jxjxCopy-1.jpg" alt="" />
+							<p>个性的波普party</p>
+						</div>
+						<div class="jxCopyCon-1">
+							<img src="images/img-zhongshi/jxjxCopy-2.jpg" alt="" />
+							<p>婚礼作品 | 盛开</p>
+						</div>
+						<div class="jxCopyCon-1" style="margin-right: 0px;">
+							<img src="images/img-zhongshi/jxjxCopy-3.jpg" alt="" />
+							<p>关于婚礼物品保管的建议</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div><!--jxCopy end-->
+			
+			<!--jxFooter start-->
+			<div class="jxFooter">
+				<div class="jxFooterInner">
+					<p>Chocowedding 成都启蔻文化传播有限责任公司©版权所有  网站地图  站长统计</p>
+				</div>
+			</div><!--jxFooter end-->
+		</div><!--jxWrap end-->
+	</body>
+</html>
