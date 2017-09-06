@@ -1,14 +1,16 @@
-@charset "utf-8";
-
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p,blockquote,th,td,figure {
-    margin: 0;
-    padding: 0;
-    font-family: '微软雅黑';
-    color: #333333;
+@charset "UTF-8";
+/* css reset*/
+html {
+    color: #000;
+    background: #FFF;
 }
-
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-    display: block;
+body{
+    overflow-x: hidden;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, strong {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 table {
@@ -16,45 +18,92 @@ table {
     border-spacing: 0;
 }
 
-caption,th {
-    font-weight: normal;
-    text-align: left;
-}
-
-fieldset,img {
+fieldset, img {
     border: 0;
 }
 
-li {
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+var, em, i {
+    font-style: normal;
+}
+
+address, caption, cite, code, dfn, em, th, var, optgroup {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+del, ins {
+    text-decoration: none;
+}
+
+caption, th {
+    text-align: left;
+}
+li{
     list-style: none;
 }
-
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
+    font-weight: normal;
 }
 
-a {
-    text-decoration: none !important;
-    color: #030303;
+q:before, q:after {
+    content: '';
 }
 
-blockquote:before,blockquote:after,q:before,q:after {
-    content: "";
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
 }
 
-i {
-    font-style: normal
+sup {
+    vertical-align: baseline;
 }
 
-.clr {
-    clear: both
+sub {
+    vertical-align: baseline;
 }
 
-a:hover img {
-    filter: alpha(opacity=80);
-    -moz-opacity: 0.8;
-    -khtml-opacity: 0.8;
-    opacity: 0.8;
+legend {
+    color: #000;
 }
 
-/*以上是浏览器重置*/
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+input, button, textarea, select {
+    *font-size: 100%;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: "...";
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], button {
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.clearfix {
+    *zoom: 1;
+}
